@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+  min-height:100vh;
+  background: linear-gradient(45deg,#1087a5, #010d11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.info{
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    font-family:   Tahoma, sans-serif,'Times New Roman', Times;
+    font-family: 'Titillium Web', sans-serif;
+}
+span{
+    color:#fff;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px rgb(204, 72, 72);
+    border-bottom: 2px solid #fff;
+}
+.con{
+    width: 300px;
+    margin: 30px auto;
+}
+
+input{
+    background-color: #222;
+    width:244px;height:51px;
+    font-size: 20px;
+    font-weight: 900;
+  text-align:center;
+    margin-left: -10px;
+    margin-bottom: -4px;
+    color:#fff;
+    padding: 3px;
+    border-width: 0;
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+}
+#but_clear{
+    width: 44px;
+    font-size:20px;
+    padding: 10px;
+    border-width:0;
+    background: #f55;
+    box-shadow: 0px 2px 2px #000;
+}
+#but_clear:active{
+    background: #f88;
+    box-shadow: 0px 2px 2px #000 inset;
+}
+
+button{
+    font-family: 'Titillium Web', sans-serif;
+    margin-left:-4px;
+    cursor: pointer;
+    outline: none
+}
+#but0,#but1,#but2,#but3,#but4,#but5,#but6,#but7,#but8,#but9,#but_boint{
+    min-width:70px; min-height:70px;
+    font-size:25px;
+    color: #fff;
+    box-shadow: 0px 2px 2px #000;
+    border-width: 0px ;
+    background-color: #0f3340;
+}
+#but0:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but1:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but2:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but3:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but4:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but5:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but6:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but7:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but8:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but9:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+#but_boint:active{background: #22575d;box-shadow: 0px 2px 2px #000 inset;}
+
+#but_equal{
+    min-width:70px; min-height:70px;
+    border-width: 0px;
+    background-color: #184759;
+    box-shadow: 0px 2px 2px #000;
+    color: #fff;
+    font-size:25px;
+}
+#but_equal:active{background-color: #316873;box-shadow: 0px 2px 2px #000 inset;}
+
+#but_plus,#but_subtract,#but_multiply,#but_division{
+    min-width:70px; min-height:70px;
+    border-width: 0px ;
+    background-color: #2a5a99;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px #000;
+    font-size:25px;
+}
+#but_plus:active{background-color: #1a4173; box-shadow: 0px 2px 2px #000 inset;}
+#but_multiply:active{background-color: #1a4173;box-shadow: 0px 2px 2px #000 inset;}
+#but_subtract:active{background-color: #1a4173;box-shadow: 0px 2px 2px #000 inset;}
+#but_division:active{background-color: #1a4173;box-shadow: 0px 2px 2px #000 inset;}
+
+a{
+    font-size:18px;
+    text-decoration: none;
+    padding: 10px;
+    color:#fff;
+    background: #06133e;
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 10px;
+}
+a:hover{
+    background: #0e2263;
+}
+
+
